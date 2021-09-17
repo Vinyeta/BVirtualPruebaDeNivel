@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'ArialMT Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ArialMT Regular'), url('arialmt.woff') format('woff');
+}
+
+body {
+
+    /* Layout */
+
+    position: relative;
+    width: 460px;
+    transform: translate(-50%);
+    left: 50%;
+
+}
+
+#barra_superior {
+
+    /* Layout */
+
+    width: 460px;
+    height: 15px;
+
+    /* UI Properties */
+
+    background: #D63240 0% 0% no-repeat padding-box;
+}
+
+#img_logo {
+
+    /* Layout */
+
+    margin-left: 94px;
+    margin-top: 18px;
+}
+
+h1 {
+
+    /* Layout */
+
+    width: 410px;
+    margin-left: 25px;
+    margin-top: 32.04px;
+
+
+    /* UI Properties */
+
+    text-align: center;
+    font: normal normal bold 28px/38px Arial;
+    letter-spacing: 0px;
+    color: #402020;
+}
+
+#img_principal {
+
+    /* Layout */
+
+    margin-top: 18.96px;
+}
+
+
+#descripcion_producto {
+
+    /* Layout */
+
+    width: 326px;
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 47px;
+
+    /* UI Properties*/
+    font-family: 'ArialMT Regular';
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #402020;
+}
+
+#descripcion_producto_bold {
+    /* Layout */
+
+    width: 410px;
+    margin-left: 25px;
+
+    /* UI Properties */
+
+    text-align: center;
+    font: normal normal bold 23px/33px Arial;
+    letter-spacing: 0px;
+    color: #402020;
+}
+
+
+#img_boton {
+
+    /* Layout */
+
+    margin-left: 65px;
+    margin-top: 47px;
+
+}
+
+#descripcion_promo {
+
+    /* Layout */
+
+    width: 410px;
+    margin-left: 25px;
+    margin-top: 27.04px;
+
+    /* UI Properties */
+
+    text-align: center;
+    font-family: 'ArialMT Regular';
+    font-size: 18px;;
+    letter-spacing: 0px;
+    color: #402020;
+}
+
+#img_banner {
+
+    /* Layout */
+
+    margin-top: 34.09px;
+}
+
+footer > p {
+
+    /* Layout */
+
+    width: 410px;
+    margin-top: 37.87;
+    margin-left: 25px;
+
+    /* UI Properties */
+
+    text-align: center;
+    font: normal normal normal 11px/12px Arial;
+    letter-spacing: 0px;
+    color: #9E9E9E;
+}
+
+
+
+
